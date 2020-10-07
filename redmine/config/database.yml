@@ -1,0 +1,21 @@
+development:
+  adapter: mysql
+  database: redmine_development
+  host: localhost
+  username: root
+  password:
+test:
+  adapter: mysql
+  database: redmine_test
+  host: localhost
+  username: root
+  password:
+demo:
+  adapter: sqlite3
+  dbfile: db/redmine_demo.db
+production:
+  adapter: mysql
+  database: redmine
+  host: localhost
+  username: root
+  password:
